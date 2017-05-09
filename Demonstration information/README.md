@@ -3,5 +3,6 @@
 The username and password are both "ohdsi"
 
 Once running, starting and updating RStudio can be helpful. In addition, [installing the PheWAS package will be helpful down the line.](https://github.com/PheWAS/PheWAS)
-Installing the shiny package would be helpful as well. Run the following in R:
-`install.packages("shiny")`
+
+Installing a few more packages would be helpful as well. Run the following in R:
+`install.packages(c("glmnet","randomForest,"shiny")`
